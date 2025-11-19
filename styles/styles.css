@@ -1,5 +1,26 @@
+/*Class Selectors:*/
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: lightblue;
+    color:black;
+    overflow: auto;
+}
+.col1 img{
+    float: right;
+    margin: 10px;
+    box-shadow: 0 0 30px #777;
+}
+
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
 :root {
-    --color: darkblue;
+    --color: lightblue;
     --border-first: 1px solid black;
     --border-second: 2px solid black;
 }
@@ -14,13 +35,13 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
 }
 
 h1{
-    color: var(--color);
+    color: black;
 }
 
 p{
@@ -29,15 +50,10 @@ p{
 
 aside {
     width: 700px;
-    margin: 10px;
-    border: var(--border-first);
-    background-color: #eeeeee79;
-    padding: 10px;
-    color: black;
     text-align: center;
 }
 aside img {
-        width: 200px;
+        width: 250px;
         height: auto;
     }
 
