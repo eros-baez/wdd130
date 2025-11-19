@@ -48,7 +48,7 @@ aside h2 {
 }
 
 main img{
-    width: 150px;
+    width:200px;
     height: auto;
     border: var(--border-first);
     padding: 2px;
