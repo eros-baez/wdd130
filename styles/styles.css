@@ -41,8 +41,8 @@ aside img {
         height: auto;
     }
 
-main image{
-    width: 150px;
+main img{
+    width: 200px;
     height: auto;
     border: var(--border-first);
     padding: 2px;
