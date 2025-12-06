@@ -110,6 +110,7 @@ section img {
     max-width: 300px;
     height: auto;
     margin: 1rem auto;
+
 }
 
 .history-grid{
@@ -137,9 +138,9 @@ figure img {
 
 }
 
-.contact-info h2{
+.contact-info h1{
     position: relative;
-    margin-bottom: 6px;
+    margin-bottom: 35px;
     line-height: 1;
 }
 
