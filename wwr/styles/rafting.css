@@ -106,11 +106,10 @@ nav ul{
 }
 
 section img {
-    display: grid;
-    grid-template-columns: center;
+    display: block;
     max-width: 300px;
     height: auto;
-    margin: 1rem 0;
+    margin: 1rem auto;
 }
 
 .history-grid{
