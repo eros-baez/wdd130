@@ -46,28 +46,27 @@
             </div>
             <form>
 
-                <label>Name
-                    <input type="text" placeholder="Placeholder">
-                </label>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Placeholder">
 
-                <label>Email
-                    <input type="email" placeholder="Placeholder">
-                </label>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Placeholder">
 
                 <label>Message Purpose</label>
 
                 <div class="radio-group">
-                    <label><input type="radio" name="purpose"> General Inquiry</label>
-                    <label><input type="radio" name="purpose"> Reservation Question</label>
-                    <label><input type="radio" name="purpose"> Website Suggestion</label>
+                    <label for="purpose"><input id="general" type="radio" name="purpose"> General Inquiry</label>
+                    <label for="purpose"><input id="reservation" type="radio" name="purpose"> Reservation
+                        Question</label>
+                    <label for="purpose"><input id="website" type="radio" name="purpose"> Website Suggestion</label>
                 </div>
 
-                <label>Message
-                    <textarea placeholder="Type here."></textarea>
-                </label>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type here."></textarea>
 
-                <label class="checkbox">
-                    <input type="checkbox"> Please Subscribe me to the monthly newsletter
+                <label for="subscribe" class="checkbox">
+                    <input id="subscribe" name="subscribe" type="checkbox"> Please Subscribe me to the monthly
+                    newsletter
                 </label>
 
                 <button type="submit">Get in Touch!</button>
