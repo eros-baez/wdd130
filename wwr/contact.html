@@ -55,17 +55,23 @@
                 <p>Message Purpose</p>
 
                 <div class="radio-group">
-                    <label for="general"><input id="general" type="radio" name="purpose"> General Inquiry</label>
-                    <label for="reservation"><input id="reservation" type="radio" name="purpose"> Reservation
-                        Question</label>
-                    <label for="website"><input id="website" type="radio" name="purpose"> Website Suggestion</label>
+                    <label for="general">General Inquiry</label>
+                    <input id="general" type="radio" name="purpose" value="general">
+
+                    <label for="reservation">Reservation Question</label>
+                    <input id="reservation" type="radio" name="purpose" value="reservation">
+
+                    <label for="website">Website Suggestion</label>
+                    <input id="website" type="radio" name="purpose" value="website">
+
                 </div>
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder="Type here."></textarea>
 
                 <label for="subscribe" class="checkbox">
-                    <input id="subscribe" name="subscribe" type="checkbox"> Please Subscribe me to the monthly
+                    <input id="subscribe" name="subscribe" type="checkbox" value="yes"> Please Subscribe me to the
+                    monthly
                     newsletter
                 </label>
 
