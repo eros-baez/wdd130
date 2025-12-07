@@ -84,7 +84,7 @@ h1 {
 .hero article img {
     float: right;
     width: 200px;
-    box-shadow: 0 0  10px 1px blue;
+    box-shadow: 0 0  10px 1px #0000ff;
 }
 
 header {
@@ -203,6 +203,6 @@ button {
     padding: .7rem;
     border: 1px solid #777;
     background-color: var(--accent1-color);
-    color: white;
+    color: #ffffff;
     cursor: pointer;
 }
