@@ -228,7 +228,7 @@ button {
 .trip-table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 2rem; /* separation between tables */
+    margin-bottom: 2rem;
     background-color: #ffffff;
     border: 1px solid #ddd;
 }
