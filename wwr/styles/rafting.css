@@ -65,8 +65,8 @@ footer {
 }
 
 h1 {
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: 0px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -217,4 +217,35 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+}
+
+.trips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem; /* separation between tables */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+.trip-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.trip-table tbody tr:hover {
+    background-color: #fafafa;
 }
