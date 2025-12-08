@@ -87,6 +87,12 @@ h1 {
     box-shadow: 0 0  10px 1px #0000ff;
 }
 
+.hero h1 {
+    position: absolute;
+    top: 10;    
+    color: #ffffff;
+}
+
 header {
     margin: 1rem auto;
     display: grid;
@@ -205,4 +211,10 @@ button {
     background-color: var(--accent1-color);
     color: #ffffff;
     cursor: pointer;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
